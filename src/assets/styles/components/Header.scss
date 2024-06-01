@@ -1,0 +1,22 @@
+.fix {
+   margin-right: 40px;
+}
+
+.containerHeader {
+   background-color: #192847;
+   color: white;
+   font-size: 12px;
+}
+
+.backgroundNav {
+   background-color: #ffffff;
+
+   .resizeIcon {
+      width: 80px;
+      height: 80px;
+   }
+
+   .fixTop{
+      margin-top: -40px;
+   }
+}

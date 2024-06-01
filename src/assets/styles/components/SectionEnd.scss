@@ -1,0 +1,58 @@
+.row-section-end {
+    margin-top: 35px;
+    text-align: center;
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+.row-section-content-end {
+    .hr-section-style {
+        height: 5px;
+    }
+    .col-3{
+        padding: 0 0;
+        .card {
+            border: none;
+            padding: 0 0;
+            .section-end-icon {
+                padding: 0 100px 0px 100px;
+            }
+            .card-body {
+                .section-end-title {
+                    margin-top: -5px;
+                    font-size: 15px;
+                }
+                .section-end-content {
+                    margin-top: 10px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+   
+}
+
+.row-section-detail-end {
+    .row-section-detail-end-title {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .row-section-detail-end-icon {
+        width: 50px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .row-section-detail-end-para {
+        margin-top: 30px;
+        margin-left: 15px;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+.m-8 {
+    margin-left: 133px;
+}
