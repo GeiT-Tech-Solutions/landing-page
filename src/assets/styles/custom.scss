@@ -1,0 +1,34 @@
+// Ghi đè thư viện bootstrap
+
+.carousel-indicators {
+
+    margin: 0 !important;
+    bottom: 15% !important;
+    left: 50px !important;
+
+    button {
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 5px;
+        background-color: #A3B3CD !important;
+        opacity: 0.75 !important;
+        transition: all 0.5s ease;
+        border: none !important;
+
+        &.active {
+            width: 120px !important;
+            background-color: #385FB0 !important;
+            opacity: 1 !important;
+        }
+    }
+}
+
+// border of card
+.card {
+    border: none !important;
+    transition: all 0.5s ease;
+
+    &:hover {
+        border: 1px solid rgba($color: #000000, $alpha: 0.2) !important;
+    }
+}

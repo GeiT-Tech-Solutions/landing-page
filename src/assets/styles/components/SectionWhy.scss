@@ -1,4 +1,47 @@
-.fix-row {
-    margin: 0;
-    padding: 0;
+.why-bg {
+    background-image: url('../../images/section_why/background-dgital-transformation-solution.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+
+    margin: 50px 0;
+
+    .why-bg-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .why-bg-content {
+        background: rgba($color: #575757, $alpha: 0.6);
+        color: white;
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        bottom: 0;
+        padding: 20px 5%;
+        margin-left: 12.5%;
+
+        h2 {}
+
+        p {
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+
+        .why-icons {
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                width: 18%;
+            }
+        }
+
+    }
 }

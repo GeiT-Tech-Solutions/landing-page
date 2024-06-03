@@ -16,7 +16,28 @@
       height: 80px;
    }
 
-   .fixTop{
-      margin-top: -40px;
+   // .fixTop {
+   //    margin-top: -40px;
+   // }
+}
+
+#header-navbar-nav {
+   .fix.active {
+      background: #192847;
+      color: white;
+      border-radius: 15px;
+      box-shadow: #000000c7 0px 4px 4px 0px !important;
    }
+
+   .nav-link {
+      font-size: 18px;
+      padding: 15px 20px;
+      transition: all 0.3s;
+   }
+}
+
+.item-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
