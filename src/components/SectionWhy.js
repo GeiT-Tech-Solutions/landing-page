@@ -11,7 +11,7 @@ const SectionWhy = () => {
   return (
     <>
       <div className="why-bg">
-        <div className="why-bg-overlay"></div>
+        <div className="why-bg-overlay">
         <Container className="why-bg-content">
           <Row>
             <h2>Why Us?</h2>
@@ -34,6 +34,8 @@ const SectionWhy = () => {
             <img src={iconCost} />
           </div>
         </Container>
+        </div>
+        
       </div>
     </>
   );

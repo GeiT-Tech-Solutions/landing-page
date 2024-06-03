@@ -1,5 +1,46 @@
 .img-footer {
     margin-top: 35px;
     width: 100%;
-    height: 550px;
+    height: 29vw;
+}
+
+.footer-background {
+    background-image: url("../../images/Footer/footer-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    margin-top: 2.7vw;
+
+    .footer-bg-content {
+        background: rgba($color: #e6e0e0, $alpha: 0.8);
+        color: black;
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        top: 0;
+        right: 5.3vw;
+        padding: 1.05vw 5%;
+        margin-left: 12.5%;
+        border-radius: 0 0 20px 20px;
+        .contact-footer-overlay{
+            padding: 0;
+            margin: 0;
+            margin-top: 2.78vw;
+            margin-left: -2.1vw;
+        }
+        .resizeIconFooter {
+            width: 7.9vw;
+            height:7.9vw;
+         }
+        .footer-icon-title{
+           font-size: 2.7vw;
+        }
+        .contact-footer{
+            .contact-footer-para{
+                margin-left: 1vw;
+            }
+        }
+    }
 }
