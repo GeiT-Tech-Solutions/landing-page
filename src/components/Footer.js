@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="footer-background">
       <div className="footer-bg-overlay"></div>
       <Container className="footer-bg-content">
-        <Row>
+        <Row className="footer-bg-content-center">
           <div className="col-10">
             <Navbar.Brand href="#home" className="item-center">
               <div className="d-flex align-items-center">
