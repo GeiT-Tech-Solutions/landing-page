@@ -1,12 +1,16 @@
+$breakpoint-safari-large: 1280px;
+$breakpoint-safari-min: 995px;
+$breakpoint-safari-big: 2560px;
+
 .why-bg {
-    background-image: url('../../images/section_why/background-dgital-transformation-solution.webp');
+    background-image: url("../../images/section_why/background-dgital-transformation-solution.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 47vw;
     position: relative;
 
-    margin: 50px 0;
+    margin: 4vw 0;
 
     .why-bg-overlay {
         background-color: rgba(0, 0, 0, 0.5);
@@ -24,16 +28,20 @@
         width: 50%;
         height: 70%;
         bottom: 0;
-        padding: 60px 5%;
+        padding: 4.7vw 5%;
         margin-left: 12.5%;
-        border-top-left-radius: 60px;
-        border-top-right-radius: 60px;
+        border-top-left-radius: 4.7vw;
+        border-top-right-radius: 4.7vw;
 
-        h2 {}
+    }
+}
 
+// Fix bug hiển thị trên macbook safari
+@media (max-width: $breakpoint-safari-large) {
+    .why-bg-content {
         p {
-            font-size: 1rem;
-            margin-top: 20px;
+            font-size: 1vw;
+            margin-top: 1.6vw;
         }
 
         .why-icons {
@@ -44,6 +52,39 @@
                 width: 18%;
             }
         }
-
     }
+}
+
+@media (max-width: $breakpoint-safari-min) {
+    .why-bg-content {
+        p {
+            font-size: 0.9vw;
+            margin-top: 1vw;
+        }
+
+        .why-icons {
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                width: 16%;
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-safari-big) {
+        p {
+            font-size: 1.3rem;
+            margin-top: 1.6vw;
+        }
+
+        .why-icons {
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                width: 18%;
+            }
+        }
 }

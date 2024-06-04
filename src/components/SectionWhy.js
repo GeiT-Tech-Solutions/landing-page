@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/styles/components/SectionWhy.scss";
-import sectionWhyImg from "../assets/images/section_why/background-dgital-transformation-solution.webp";
 import iconCost from "../assets/images/section_why/Icon-cost.png";
 import iconEfficiency from "../assets/images/section_why/Icon-efficiency.png";
 import iconQuality from "../assets/images/section_why/Icon-quality.png";
