@@ -106,26 +106,71 @@ const SectionEnd = () => {
       <Container>
         <Row className="row-section-detail-end">
           <div className="col-6">
-            <h3 className="row-section-detail-end-title">landing page</h3>
+            <div className="col">
+              <h3 className="row-section-detail-end-title">e - commerce</h3>
 
-            <div className="col m-8">
-              <div className="col d-flex align-items-center">
-                <img src={maketing2} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">
-                  beautiful visual effects
-                </p>
+              <div className="col m-8">
+                <div className="col d-flex align-items-center">
+                  <img
+                    src={ecommerce}
+                    className="row-section-detail-end-icon"
+                  />
+                  <p className="row-section-detail-end-para">
+                    Online selling point
+                  </p>
+                </div>
+
+                <div className="col d-flex align-items-center">
+                  <img src={payment} className="row-section-detail-end-icon" />
+                  <p className="row-section-detail-end-para">Online payment</p>
+                </div>
+
+                <div className="col d-flex align-items-center">
+                  <img src={IM} className="row-section-detail-end-icon" />
+                  <p className="row-section-detail-end-para">
+                    Inventory manager
+                  </p>
+                </div>
+
+                <div className="col d-flex align-items-center">
+                  <img src={Customer} className="row-section-detail-end-icon" />
+                  <p className="row-section-detail-end-para">
+                    Customer manager
+                  </p>
+                </div>
               </div>
-              <div className="col d-flex align-items-center">
-                <img src={maketing1} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">
-                  Marketing efficiently
-                </p>
-              </div>
-              <div className="col d-flex align-items-center">
-                <img src={maketing3} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">
-                  Customer information gather
-                </p>
+            </div>
+            <div className="col mt-5">
+              <h3 className="row-section-detail-end-title">landing page</h3>
+
+              <div className="col m-8">
+                <div className="col d-flex align-items-center">
+                  <img
+                    src={maketing2}
+                    className="row-section-detail-end-icon"
+                  />
+                  <p className="row-section-detail-end-para">
+                    beautiful visual effects
+                  </p>
+                </div>
+                <div className="col d-flex align-items-center">
+                  <img
+                    src={maketing1}
+                    className="row-section-detail-end-icon"
+                  />
+                  <p className="row-section-detail-end-para">
+                    Marketing efficiently
+                  </p>
+                </div>
+                <div className="col d-flex align-items-center">
+                  <img
+                    src={maketing3}
+                    className="row-section-detail-end-icon"
+                  />
+                  <p className="row-section-detail-end-para">
+                    Customer information gather
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -200,36 +245,6 @@ const SectionEnd = () => {
               <p className="row-section-detail-end-para">
                 e-Commerce integration (ECI)
               </p>
-            </div>
-          </div>
-        </Row>
-
-        <Row className="row-section-detail-end">
-          <div className="col-6">
-            <h3 className="row-section-detail-end-title">e - commerce</h3>
-
-            <div className="col m-8">
-              <div className="col d-flex align-items-center">
-                <img src={ecommerce} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">
-                  Online selling point
-                </p>
-              </div>
-
-              <div className="col d-flex align-items-center">
-                <img src={payment} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">Online payment</p>
-              </div>
-
-              <div className="col d-flex align-items-center">
-                <img src={IM} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">Inventory manager</p>
-              </div>
-
-              <div className="col d-flex align-items-center">
-                <img src={Customer} className="row-section-detail-end-icon" />
-                <p className="row-section-detail-end-para">Customer manager</p>
-              </div>
             </div>
           </div>
         </Row>

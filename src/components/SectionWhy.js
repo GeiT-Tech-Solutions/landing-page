@@ -12,30 +12,30 @@ const SectionWhy = () => {
     <>
       <div className="why-bg">
         <div className="why-bg-overlay">
-        <Container className="why-bg-content">
-          <Row>
-            <h2>Why Us?</h2>
-            <p>
-              At <strong>GeitTech Solution</strong>, we elevate business
-              efficiency with our comprehensive software solutions. From
-              intuitive CRM and HRM systems to robust MRP and WMS integrations,
-              we tailor every solution to meet your specific needs. Our
-              expertise ensures seamless, user-friendly designs that streamline
-              your operations. Experience innovation, customized service, and
-              impactful results as we drive your business success forward with
-              our all-in-one, customer-focused solutions.
-            </p>
-          </Row>
+          <Container className="why-bg-content">
+            <Row>
+              <h2>Why Us?</h2>
+              <p>
+                At <strong>GeitTech Solution</strong>, we elevate business
+                efficiency with our comprehensive software solutions. From
+                intuitive CRM and HRM systems to robust MRP and WMS
+                integrations, we tailor every solution to meet your specific
+                needs. Our expertise ensures seamless, user-friendly designs
+                that streamline your operations. Experience innovation,
+                customized service, and impactful results as we drive your
+                business success forward with our all-in-one, customer-focused
+                solutions.
+              </p>
+            </Row>
 
-          <div className="why-icons">
-            <img src={iconEfficiency} />
-            <img src={iconQuality} />
-            <img src={iconSpeed} />
-            <img src={iconCost} />
-          </div>
-        </Container>
+            <div className="why-icons">
+              <img src={iconEfficiency} />
+              <img src={iconQuality} />
+              <img src={iconSpeed} />
+              <img src={iconCost} />
+            </div>
+          </Container>
         </div>
-        
       </div>
     </>
   );

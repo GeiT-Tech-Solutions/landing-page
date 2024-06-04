@@ -24,23 +24,37 @@
         padding: 1.05vw 5%;
         margin-left: 12.5%;
         border-radius: 0 0 20px 20px;
-        .contact-footer-overlay{
+
+        .contact-footer-overlay {
             padding: 0;
             margin: 0;
             margin-top: 2.78vw;
             margin-left: -2.1vw;
+            font-size: 13px;
         }
+
         .resizeIconFooter {
             width: 7.9vw;
-            height:7.9vw;
-         }
-        .footer-icon-title{
-           font-size: 2.7vw;
+            height: 7.9vw;
         }
-        .contact-footer{
-            .contact-footer-para{
+
+        .footer-icon-title {
+            font-size: 2.7vw;
+        }
+
+        .contact-footer {
+            .contact-footer-para {
                 margin-left: 1vw;
             }
         }
     }
+}
+
+.footer-bg-overlay {
+    background-color: rgba($color: #2c416c, $alpha: 0.85);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
