@@ -19,7 +19,6 @@ import MRP from "../assets/images/section-end/MRP-icon.png";
 import payment from "../assets/images/section-end/payment-icon.png";
 import PM from "../assets/images/section-end/PM-icon.png";
 import SCM from "../assets/images/section-end/SCM.png";
-import shop from "../assets/images/section-end/shop-icon.png";
 
 const SectionEnd = () => {
   return (
@@ -39,12 +38,6 @@ const SectionEnd = () => {
             <img className="card-img-top section-end-icon" src={examineImg} />
             <div className="card-body">
               <h4 className="section-end-title">Customer Requirement Survey</h4>
-              <p className="card-text section-end-content">
-                Survey the current IT application status and business needs.
-                Gather detailed requirements from customers through interviews
-                and surveys. Analyze the real-life situation to identify issues
-                and improvement opportunities.
-              </p>
             </div>
           </div>
         </div>
@@ -56,12 +49,7 @@ const SectionEnd = () => {
               <h4 className="section-end-title">
                 Solution Analysis and Fit Gap Assessment
               </h4>
-              <p className="card-text  section-end-content">
-                Analyze customer requirements and current status. Assess the
-                fit-gap between the software solution and user needs. Report the
-                current status, propose suitable solutions, and evaluate
-                benefits.
-              </p>
+
             </div>
           </div>
         </div>
@@ -73,13 +61,7 @@ const SectionEnd = () => {
               <h4 className="section-end-title">
                 Solution Consultation and Planning
               </h4>
-              <p className="card-text  section-end-content">
-                Provide detailed consultation on the ERP solution that matches
-                the customer's needs and current status. Develop a detailed
-                implementation plan, including costs and timelines. Present the
-                plan to the customer, address any questions, and make
-                adjustments if necessary.
-              </p>
+
             </div>
           </div>
         </div>
@@ -91,12 +73,7 @@ const SectionEnd = () => {
               <h4 className="section-end-title">
                 Implementation and Data Gathering
               </h4>
-              <p className="card-text  section-end-content">
-                Implement the ERP system according to the discussed plan.
-                Install, train users, migrate data, and provide deployment
-                support. Collect and analyze data from real-life operations to
-                evaluate the solution's effectiveness.
-              </p>
+
             </div>
           </div>
         </div>
