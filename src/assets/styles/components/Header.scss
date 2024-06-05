@@ -1,19 +1,19 @@
 .fix {
-   margin-right: 40px;
+   margin-right: 3.2vw;
 }
 
 .containerHeader {
    background-color: #192847;
    color: white;
-   font-size: 12px;
+   font-size: 0.9vw;
 }
 
 .backgroundNav {
    background-color: #ffffff;
 
    .resizeIcon {
-      width: 80px;
-      height: 80px;
+      width: 6.3vw;
+      height: 6.3vw;
    }
 
    // .fixTop {
@@ -30,8 +30,8 @@
    }
 
    .nav-link {
-      font-size: 18px;
-      padding: 15px 20px;
+      font-size: 1.4vw;
+      padding: 1.2vw 1.6vw;
       transition: all 0.3s;
    }
 }

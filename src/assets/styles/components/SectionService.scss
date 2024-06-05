@@ -1,6 +1,6 @@
 .sectionTitle {
-    margin-top: 25px;
-    font-size: 30px;
+    margin-top: 1.9vw;
+    font-size: 2.3vw;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -13,21 +13,21 @@
 }
 
 .card {
-    padding: 10px 6px;
+    padding: 0.8vw 0.5vw;
     border: none;
     h4 {
         text-transform: uppercase;
         font-weight: 700;
         text-align: left;
-        font-size: 18px;
-        height: 48px;
+        font-size: 1.4vw;
+        height: 3.8vw;
     }
     p {
-        font-size: 12px;
+        font-size: 0.9vw;
         word-spacing: 0.2px;
         text-align: start;
     }
     img {
-        padding: 0 50px 3px 50px;
+        padding: 0 3.9vw 0.23vw 3.9vw;
     }
 }
