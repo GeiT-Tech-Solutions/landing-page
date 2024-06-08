@@ -25,7 +25,7 @@ const SectionService = () => {
               <img className="card-img-top" src={sv2} />
               <div className="card-body">
                 <h4>Landing Page Design</h4>
-                <p className="card-text">
+                <p className="card-text para-dark-blue">
                   Create stunning and high-converting landing pages tailored to
                   your marketing goals. Our designs are optimized for user
                   engagement and lead generation.
@@ -38,7 +38,7 @@ const SectionService = () => {
               <img className="card-img-top" src={sv1} />
               <div className="card-body">
                 <h4>E-commerce Development</h4>
-                <p className="card-text">
+                <p className="card-text para-dark-blue">
                   Build robust and scalable e-commerce websites that provide a
                   seamless shopping experience. Our solutions include secure
                   payment integration, inventory management, and customer
@@ -52,7 +52,7 @@ const SectionService = () => {
               <img className=" card-img-top" src={sv3} />
               <div className="card-body">
                 <h4>ERP Development</h4>
-                <p className="card-text">
+                <p className="card-text para-dark-blue">
                   Develop comprehensive ERP systems tailored to your business
                   processes. Our ERP solutions enhance productivity, streamline
                   operations, and provide real-time business insights.

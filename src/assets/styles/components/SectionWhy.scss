@@ -26,7 +26,6 @@ $breakpoint-safari-big: 2560px;
         color: white;
         position: absolute;
         width: 50%;
-        height: 70%;
         bottom: 0;
         padding: 4.7vw 5%;
         margin-left: 12.5%;
@@ -47,7 +46,7 @@ $breakpoint-safari-big: 2560px;
         .why-icons {
             display: flex;
             justify-content: space-evenly;
-
+            height: 70%;
             img {
                 width: 18%;
             }
