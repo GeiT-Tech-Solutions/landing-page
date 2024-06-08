@@ -7,9 +7,12 @@ const Footer = () => (
   <>
     <div className="footer-background">
       <div className="footer-bg-overlay">
-        <Container className="footer-bg-content">
+       
+      </div>
+
+      <Container className="footer-bg-content">
           <Row className="footer-bg-content-center">
-            <div className="col-10">
+            <div className="mx-auto">
               <Navbar.Brand href="#home" className="item-center">
                 <div className="d-flex align-items-center">
                   <img src={iconGT} className="resizeIconFooter" />
@@ -18,7 +21,7 @@ const Footer = () => (
               </Navbar.Brand>
             </div>
 
-            <div className="col contact-footer-overlay">
+            <div className="mx-auto contact-footer-overlay">
               <div className="col d-flex align-items-center contact-footer">
                 <p className="col-2">
                   <strong>Address</strong>
@@ -47,7 +50,6 @@ const Footer = () => (
             </div>
           </Row>
         </Container>
-      </div>
     </div>
   </>
 );

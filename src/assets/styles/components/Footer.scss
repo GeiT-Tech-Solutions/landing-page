@@ -12,6 +12,8 @@
     height: 70vh;
     position: relative;
     margin-top: 2.7vw;
+    min-height: 715px;
+    max-height: 800px;
 
     .footer-bg-content {
         background: rgba($color: #e6e0e0, $alpha: 0.8);
@@ -24,10 +26,12 @@
         padding: 1.05vw 5%;
         margin-left: 12.5%;
         border-radius: 0 0 20px 20px;
+        min-height: 500px;
+        
         
         .footer-bg-content-center {
-            margin-left: 2.7vw;
-            margin-top: 2.7vw;
+            // margin-left: 2.7vw;
+            // margin-top: 2.7vw;
         }
 
         .contact-footer-overlay {
@@ -44,10 +48,13 @@
         }
 
         .footer-icon-title {
-            font-size: 2.7vw;
+            font-size: 2vw;
         }
 
         .contact-footer {
+            p{
+                font-size: 1rem;
+            }
             .contact-footer-para {
                 margin-left: 1vw;
             }

@@ -22,7 +22,7 @@ const Header = () => {
 
       <Navbar expand="lg" className="backgroundNav">
         <Container className="item-center">
-          <div className="col-4">
+          <div className="d-flex justify-content-between mr-25vw">
             <Navbar.Brand href="#home" className="item-center">
               <div className="d-flex align-items-center">
                 <img src={mainLogo} className="resizeIcon" />
@@ -31,7 +31,7 @@ const Header = () => {
             </Navbar.Brand>
           </div>
 
-          <div className="col-6 fixTop">
+          <div className="">
             <Navbar.Toggle aria-controls="header-navbar-nav" />
             <Navbar.Collapse id="header-navbar-nav" className="item-center">
               <Nav className="ml-auto">

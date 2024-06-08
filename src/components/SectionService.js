@@ -21,7 +21,7 @@ const SectionService = () => {
       <Container style={{ marginTop: "15px" }}>
         <Row className="d-flex justify-content-evenly">
           <Col>
-            <div className="card card-fix" style={{ height: "500px" }}>
+            <div className="card card-fix mh-500">
               <img className="card-img-top" src={sv2} />
               <div className="card-body">
                 <h4>Landing Page Design</h4>
@@ -34,7 +34,7 @@ const SectionService = () => {
             </div>
           </Col>
           <Col>
-            <div className="card card-fix" style={{ height: "500px" }}>
+            <div className="card card-fix mh-500">
               <img className="card-img-top" src={sv1} />
               <div className="card-body">
                 <h4>E-commerce Development</h4>
@@ -48,7 +48,7 @@ const SectionService = () => {
             </div>
           </Col>
           <Col>
-            <div className="card card-fix" style={{ height: "500px" }}>
+            <div className="card card-fix mh-500">
               <img className=" card-img-top" src={sv3} />
               <div className="card-body">
                 <h4>ERP Development</h4>
