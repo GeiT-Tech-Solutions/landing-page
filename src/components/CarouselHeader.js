@@ -4,6 +4,8 @@ import Carousel1 from "../assets/images/carousels/Carousel_1.svg";
 import Carousel2 from "../assets/images/carousels/Carousel_2.svg";
 import Carousel3 from "../assets/images/carousels/Carousel_3.svg";
 import "../assets/styles/components/CarouselHeader.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
 
 const CarouselHeader = () => {
   return (
@@ -19,6 +21,8 @@ const CarouselHeader = () => {
               Elevate your company's performance with our customizable software solutions. 
               Experience seamless integration and enhanced productivity tailored to your needs.
             </p>
+            <button className="btn button-dark-blue">Find out  <i class="fa-solid fa-angles-right"></i>
+            </button>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -30,6 +34,8 @@ const CarouselHeader = () => {
             Explore the cutting-edge features designed to streamline your business processes. 
             Enhance productivity and efficiency with our comprehensive solutions.
             </p>
+            <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
+            </button>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -41,6 +47,8 @@ const CarouselHeader = () => {
             Integrate cutting-edge software that adapts to your business needs. 
             Our automation solutions streamline workflows, reduce manual effort, and enhance productivity.
             </p>
+            <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
+            </button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
