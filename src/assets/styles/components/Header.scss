@@ -24,7 +24,7 @@ $dark-blue: #192847;
 }
 
 #header-navbar-nav {
-   .fix.active {
+   .fix:hover {
       background: #192847;
       color: white;
       border-radius: 15px;
@@ -48,3 +48,23 @@ $dark-blue: #192847;
    margin-right: 2.5vw;
 }
 
+.sticky-header {
+   position: fixed !important;
+   top: 0; 
+   left: 0;
+   right: 0;
+   z-index: 9999;
+
+}
+
+.sticky-header-scroll {
+   position: fixed !important;
+   top: 10; 
+   left: 0;
+   right: 0;
+   z-index: 9999;
+}
+
+.backgroundNav-scroll {
+  background-color: #ffffff;
+}

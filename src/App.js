@@ -31,9 +31,7 @@ function App() {
         <Preloader />
       ) : (
         <>
-          <Fadein>
-            <Header />
-          </Fadein>
+            <Header /> 
           <Fadein>
             <CarouselHeader />
           </Fadein>

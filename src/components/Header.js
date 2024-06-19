@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import mainLogo from "../assets/images/icons/logo.png";
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 import "../assets/styles/components/Header.scss";
 
 const Header = () => {
+ 
+  const [fix, setFix] = useState(false)
+  function setFixed() {
+    if(window.scrollY >= 20){
+      setFix(true)
+    }else{
+      setFix(false)
+    }
+  }
+
+  window.addEventListener("scroll", setFixed)
   return (
-    <header>
-      {/* Information header */}
+    <header >
+      <div className="">
       <Container className="containerHeader" fluid>
         <div
           style={{
@@ -20,8 +31,8 @@ const Header = () => {
         </div>
       </Container>
 
-      <Navbar expand="lg" className="backgroundNav">
-        <Container className="item-center">
+      <Navbar expand="lg" className={fix ? 'sticky-header backgroundNav-scroll' : 'sticky-header-scroll backgroundNav'}>
+        <Container className="item-center ">
           <div className="d-flex justify-content-between mr-25vw">
             <Navbar.Brand href="#home" className="item-center">
               <div className="d-flex align-items-center">
@@ -55,7 +66,10 @@ const Header = () => {
           </div>
         </Container>
       </Navbar>
-    </header>
+
+      </div>
+      {/* Information header */}
+      </header>
   );
 };
 
