@@ -27,7 +27,7 @@ const Footer = () => (
                 <strong>Address</strong>
               </p>
               <p className="contact-footer-para col-10">
-                <a href="#">
+                <a href="https://maps.app.goo.gl/WLHrSrX217uFUo2h8" target="_blank">
                   45/6 Bui Quang La str, Section 12, Go Vap District, Ho Chi Minh
                   city
                 </a>
@@ -39,7 +39,7 @@ const Footer = () => (
                 <strong>Tel</strong>
               </p>
               <p className="contact-footer-para col-10"> 
-              <a href="#">
+              <a href="tel:+84833372712">
               (+84)83 333 727 12
               </a>
               </p>
@@ -50,7 +50,7 @@ const Footer = () => (
                 <strong>Email</strong>
               </p>
               <p className="contact-footer-para col-10">
-                <a href="#">
+                <a href="mailto:company@geittechsolution.com">
                 company@geittechsolution.com
                 </a>
               </p>
