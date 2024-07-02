@@ -1,0 +1,55 @@
+{
+    "headerNav": {
+        "home": "Trang chủ",
+        "services": "Dịch vụ",
+        "projects": "Dự án",
+        "contact": "Liên hệ",
+        "blog": "Bài viết",
+        "langButton": "Ngôn ngữ"
+    },
+    "headerSlide": {
+        "slideFirst": {
+            "title": "asjdkhasjkdhaskjdsa",
+            "para": "asdsadsadsadsadsadsadas"
+        },
+        "slideSec": {
+            "title": "asjdkhasjkdrwtwetthaskjdsa",
+            "para": "asdsadsadsadsadsadsadas"
+        },
+        "slideThird": {
+            "title": "asjdkhasjkdh23423432askjdsa",
+            "para": "asdsadsadsadsadsadsadas"
+        },
+        "slideButton": ""
+    },
+    "bodyServices": {
+        "servicesTitle":"Dịch vụ của chúng tôi",
+        "servicesFirst": {
+            "title": "Thiết kế Landing page",
+            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+        },
+        "servicesSec": {
+            "title": "Phát triển E-commerce",
+            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+        },
+        "servicesThird": {
+            "title": "Phát triển ERP",
+            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+        }
+    },
+    "bodyWhy": {
+        "whyTitle": "Tại sao lại chọn chúng tôi ?",
+        "whyPara": ""
+    },
+    "bodyEnd": {
+        "endTitle": "Để chúng tôi giúp bạn",
+        "endPara": "Đội ngũ chúng tôi làm việc bla bla",
+        "endSolutionFirst": "lấy yêu cầu khách hàng",
+        "endSolutionSec": "phân tích vấn đề, cung cấp giải pháp",
+        "endSolutionThird": "lên kế hoạch và xử lý vấn đề",
+        "endSolutionFourth": "thực hiện và xử lý"
+    },
+    "footer": {
+        "address": "Địa chỉ"
+    }
+}

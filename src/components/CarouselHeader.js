@@ -5,6 +5,7 @@ import Carousel2 from "../assets/images/carousels/Carousel_2.svg";
 import Carousel3 from "../assets/images/carousels/Carousel_3.svg";
 import "../assets/styles/components/CarouselHeader.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { t } from "i18next";
 
 
 const CarouselHeader = () => {
@@ -15,11 +16,11 @@ const CarouselHeader = () => {
         <Carousel.Item>
           <img className="carousel-image" src={Carousel1} alt="First slide" />
           <Carousel.Caption>
-            <h3>Leap Your Business
-              To Next Level</h3>
+            <h3>
+            {t("headerSlide.slideFirst.title")}
+            </h3>
             <p>
-              Elevate your company's performance with our customizable software solutions.
-              Experience seamless integration and enhanced productivity tailored to your needs.
+            {t("headerSlide.slideFirst.para")}
             </p>
             <button className="btn button-dark-blue">Find out  <i class="fa-solid fa-angles-right"></i>
             </button>
@@ -29,10 +30,9 @@ const CarouselHeader = () => {
         <Carousel.Item>
           <img className="carousel-image" src={Carousel2} alt="Second slide" />
           <Carousel.Caption>
-            <h3>Discover Powerful Features</h3>
+            <h3>{t("headerSlide.slideSec.title")}</h3>
             <p>
-              Explore the cutting-edge features designed to streamline your business processes.
-              Enhance productivity and efficiency with our comprehensive solutions.
+            {t("headerSlide.slideSec.para")}
             </p>
             <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
             </button>
@@ -42,10 +42,9 @@ const CarouselHeader = () => {
         <Carousel.Item>
           <img className="carousel-image" src={Carousel3} alt="Third slide" />
           <Carousel.Caption>
-            <h3>Empower Your Operations with Intelligent </h3>
+            <h3>{t("headerSlide.slideThird.title")} </h3>
             <p>
-              Integrate cutting-edge software that adapts to your business needs.
-              Our automation solutions streamline workflows, reduce manual effort, and enhance productivity.
+            <p>{t("headerSlide.slideThird.para")} </p>
             </p>
             <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
             </button>

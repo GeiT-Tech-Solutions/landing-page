@@ -8,6 +8,7 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import { ThemeProvider } from 'react-bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import './i18n';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

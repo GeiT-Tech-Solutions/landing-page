@@ -1,0 +1,55 @@
+{
+    "headerNav": {
+        "home": "Home",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact",
+        "blog": "Blog",
+        "langButton": "Languages"
+    },
+    "headerSlide": {
+        "slideFirst": {
+            "title": "Leap Your Business To Next Level",
+            "para": " Elevate your company's performance with our customizable software solutions. Experience seamless integration and enhanced productivity tailored to your needs."
+        },
+        "slideSec": {
+            "title": "Discover Powerful Features",
+            "para": "Explore the cutting-edge features designed to streamline your business processes. Enhance productivity and efficiency with our comprehensive solutions."
+        },
+        "slideThird": {
+            "title": "Empower Your Operations with Intelligent",
+            "para": "Integrate cutting-edge software that adapts to your business needs. Our automation solutions streamline workflows, reduce manual effort, and enhance productivity."
+        },
+        "slideButton": ""
+    },
+    "bodyServices": {
+        "servicesTitle": "our service",
+        "servicesFirst": {
+            "title": "Landing Page Design",
+            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+        },
+        "servicesSec": {
+            "title": "E-commerce Development",
+            "para": "Build robust and scalable e-commerce websites that provide a seamless shopping experience. Our solutions include secure payment integration, inventory management, and customer analytics."
+        },
+        "servicesThird": {
+            "title": "ERP Development",
+            "para": "Develop comprehensive ERP systems tailored to your business processes. Our ERP solutions enhance productivity, streamline operations, and provide real-time business insights."
+        }
+    },
+    "bodyWhy": {
+        "whyTitle": "Tại sao lại chọn chúng tôi ?",
+        "whyPara": ""
+    },
+    "bodyEnd": {
+        "endTitle": "Để chúng tôi giúp bạn",
+        "endPara": "Đội ngũ chúng tôi làm việc bla bla",
+        "endSolutionFirst": "lấy yêu cầu khách hàng",
+        "endSolutionSec": "phân tích vấn đề, cung cấp giải pháp",
+        "endSolutionThird": "lên kế hoạch và xử lý vấn đề",
+        "endSolutionFourth": "thực hiện và xử lý"
+    },
+    "footer": {
+        "address": "Địa chỉ"
+    }
+}

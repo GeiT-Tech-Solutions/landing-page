@@ -12,8 +12,15 @@ import SectionEnd from "./components/SectionEnd";
 import Preloader from "./components/Preloader";
 import { useEffect, useState } from "react";
 import Fadein from "./components/FadeIn";
+import { useTranslation } from "react-i18next";
 
 function App() {
+
+  const { t, i18n } = useTranslation()
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng)
+  }
 
   const [loading, setLoading] = useState(true)
   const [data, setData] = useState(null)

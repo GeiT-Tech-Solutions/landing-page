@@ -5,6 +5,7 @@ import iconCost from "../assets/images/section_why/Icon-cost.png";
 import iconEfficiency from "../assets/images/section_why/Icon-efficiency.png";
 import iconQuality from "../assets/images/section_why/Icon-quality.png";
 import iconSpeed from "../assets/images/section_why/Icon-speed.png";
+import { t } from "i18next";
 
 const SectionWhy = () => {
   return (
@@ -13,7 +14,7 @@ const SectionWhy = () => {
         <div className="why-bg-overlay">
           <Container className="why-bg-content">
             <Row>
-              <h2>Why Us?</h2>
+              <h2>{t('bodyWhy.whyTitle')}</h2>
               <p>
                 At <strong>GeitTech Solution</strong>, we elevate business
                 efficiency with our comprehensive software solutions. From

@@ -1,7 +1,7 @@
 $dark-blue: #192847;
 
 .fix {
-   margin-right: 3.2vw;
+   margin-right: 1vw;
 }
 
 .containerHeader {
@@ -29,11 +29,11 @@ $dark-blue: #192847;
       color: white;
       border-radius: 15px;
       box-shadow: #000000c7 0px 4px 4px 0px !important;
+      padding: 1.2vw 1.6vw;
    }
 
    .nav-link {
-      font-size: 1.4vw;
-      padding: 1.2vw 1.6vw;
+      font-size: 1.2vw;
       transition: all 0.3s;
    }
 }
