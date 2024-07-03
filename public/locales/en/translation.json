@@ -20,7 +20,7 @@
             "title": "Empower Your Operations with Intelligent",
             "para": "Integrate cutting-edge software that adapts to your business needs. Our automation solutions streamline workflows, reduce manual effort, and enhance productivity."
         },
-        "slideButton": ""
+        "slideButton": "Find out"
     },
     "bodyServices": {
         "servicesTitle": "our service",
@@ -38,18 +38,48 @@
         }
     },
     "bodyWhy": {
-        "whyTitle": "Tại sao lại chọn chúng tôi ?",
-        "whyPara": ""
+        "whyTitle": "Why us?",
+        "whyPara": "At GeitTech Solution, we elevate business efficiency with our comprehensive software solutions. From intuitive CRM and HRM systems to robust MRP and WMS integrations, we tailor every solution to meet your specific needs. Our expertise ensures seamless, user-friendly designs that streamline your operations. Experience innovation, customized service, and impactful results as we drive your business success forward with our all-in-one, customer-focused solutions."
     },
     "bodyEnd": {
-        "endTitle": "Để chúng tôi giúp bạn",
-        "endPara": "Đội ngũ chúng tôi làm việc bla bla",
-        "endSolutionFirst": "lấy yêu cầu khách hàng",
-        "endSolutionSec": "phân tích vấn đề, cung cấp giải pháp",
-        "endSolutionThird": "lên kế hoạch và xử lý vấn đề",
-        "endSolutionFourth": "thực hiện và xử lý"
+        "endTitleOne": "How we help you",
+        "endPara": "We work hard on using cutting-edge method and process to satisfy our customer demand",
+        "endSolutionFirst": "SOLUTION ANALYSIS AND FIT GAP ASSESSMENT",
+        "endSolutionSec": "SOLUTION ANALYSIS AND FIT GAP ASSESSMENT",
+        "endSolutionThird": "SOLUTION CONSULTATION AND PLANNING",
+        "endSolutionFourth": "IMPLEMENTATION AND DATA GATHERING",
+        "endSubSolution": {
+            "endSubSolutionTitle": {
+                "endSubSolutionTitleOne": {
+                    "title": "E-commerce",
+                    "paraOne": "Online Selling Point",
+                    "paraSec": "Online Payment",
+                    "paraThird": "Inventory Manager",
+                    "paraFourth": "Customer Manager"
+                },
+                "endSubSolutionTitleSec": {
+                    "title": "Landing page",
+                    "paraOne": "Beautiful Visual Effects",
+                    "paraSec": "Marketing Efficiently",
+                    "paraThird": "Customer Information Gather"
+                },
+                "endSubSolutionTitleThird": {
+                    "title": "erp system",
+                    "paraOne": "Human Resources Management (HRM)",
+                    "paraSec": "Financial Management (FM)",
+                    "paraThird": "Inventory Management (IM)",
+                    "paraFourth": "Customer Relationship Management (CRM)",
+                    "paraFifth": "Manufacturing Resource Planning (MRP)",
+                    "paraSixth": "Supply Chain Management (SCM)",
+                    "paraSeventh": "Project Management (PM)",
+                    "paraEighth": "Business Intelligence (BI)",
+                    "paraNinth": "Compliance Management (CM)",
+                    "paraTenth": "E-Commerce Integration (ECI)"
+                }
+            }
+        }
     },
     "footer": {
-        "address": "Địa chỉ"
+        "address": "Address"
     }
 }

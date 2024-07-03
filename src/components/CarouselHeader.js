@@ -22,7 +22,7 @@ const CarouselHeader = () => {
             <p>
             {t("headerSlide.slideFirst.para")}
             </p>
-            <button className="btn button-dark-blue">Find out  <i class="fa-solid fa-angles-right"></i>
+            <button className="btn button-dark-blue">{t("headerSlide.slideButton")} <i class="fa-solid fa-angles-right"></i>
             </button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -34,7 +34,7 @@ const CarouselHeader = () => {
             <p>
             {t("headerSlide.slideSec.para")}
             </p>
-            <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
+            <button className="btn button-dark-blue">{t("headerSlide.slideButton")} <i class="fa-solid fa-angles-right"></i>
             </button>
           </Carousel.Caption>
         </Carousel.Item>
@@ -46,7 +46,7 @@ const CarouselHeader = () => {
             <p>
             <p>{t("headerSlide.slideThird.para")} </p>
             </p>
-            <button className="btn button-dark-blue">Find out <i class="fa-solid fa-angles-right"></i>
+            <button className="btn button-dark-blue">{t("headerSlide.slideButton")} <i class="fa-solid fa-angles-right"></i>
             </button>
           </Carousel.Caption>
         </Carousel.Item>

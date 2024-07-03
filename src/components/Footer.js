@@ -3,6 +3,7 @@ import "../assets/styles/components/Footer.scss";
 import footerBackground from "../assets/images/Footer/footer-bg.jpg";
 import iconGT from "../assets/images/icons/logo.png";
 import { Container, Row, Navbar } from "react-bootstrap";
+import { t } from "i18next";
 const Footer = () => (
   <>
     <div className="footer-background">
@@ -24,7 +25,7 @@ const Footer = () => (
           <div className="mx-auto contact-footer-overlay">
             <div className="col d-flex align-items-center contact-footer">
               <p className="col-2">
-                <strong>Address</strong>
+                <strong>{t("footer.address")}</strong>
               </p>
               <p className="contact-footer-para col-10">
                 <a href="https://maps.app.goo.gl/WLHrSrX217uFUo2h8" target="_blank">

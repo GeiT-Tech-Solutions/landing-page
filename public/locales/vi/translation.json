@@ -4,50 +4,80 @@
         "services": "Dịch vụ",
         "projects": "Dự án",
         "contact": "Liên hệ",
-        "blog": "Bài viết",
+        "blog": "Blog",
         "langButton": "Ngôn ngữ"
     },
     "headerSlide": {
         "slideFirst": {
-            "title": "asjdkhasjkdhaskjdsa",
-            "para": "asdsadsadsadsadsadsadas"
+            "title": "Nâng cấp quy trình làm việc thông minh hơn",
+            "para": "Tích hợp công nghệ phần mềm tiên tiến, phù hợp với nhu cầu kinh doanh của bạn. Tối ưu hoá quy trình làm việc với giải pháp tự động hoá của chúng tôi, giúp giảm thiểu công việc thủ công và nâng cao năng suất."
         },
         "slideSec": {
-            "title": "asjdkhasjkdrwtwetthaskjdsa",
-            "para": "asdsadsadsadsadsadsadas"
+            "title": "Đưa doanh nghiệp của bạn lên tầm cao mới",
+            "para": "Giải pháp của chúng tôi giúp doanh nghiệp thích ứng với thời đại công nghiệp số hiện nay. Tiện lợi, hiện đại, dễ dàng với chi phí phải chăng"
         },
         "slideThird": {
-            "title": "asjdkhasjkdh23423432askjdsa",
-            "para": "asdsadsadsadsadsadsadas"
+            "title": "Tính năng mạnh mẽ",
+            "para": "Chúng tôi cung cấp giải pháp mạnh mẽ, giúp doanh nghiệp giải quyết các bài toán khó khăn trong quản lý và vận hành "
         },
-        "slideButton": ""
+        "slideButton": "Tìm hiểu thêm"
     },
     "bodyServices": {
-        "servicesTitle":"Dịch vụ của chúng tôi",
+        "servicesTitle": "Dịch vụ của chúng tôi",
         "servicesFirst": {
-            "title": "Thiết kế Landing page",
-            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+            "title": "Trang Web Quảng Bá",
+            "para": "Trang Web quảng bá hay còn gọi là Landing Page đóng vai trò là một tấm danh thiếp của doanh nghiệp trên môi trường số. Một trang quảng bá đẹp và hiện đại góp phần xây dựng niềm tin và tạo ấn tượng với khách hàng."
         },
         "servicesSec": {
-            "title": "Phát triển E-commerce",
-            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+            "title": "Ứng dụng E-commerce",
+            "para": "Với chi phí set up một cửa hàng đang ngày càng tăng cao, cửa hàng ảo là một lựa chọn tuyệt vời với chi phí phải chăng. Chúng tôi cung cấp giải pháp phát triển cửa hàng ảo dễ sử dụng và quản lý đồng thời đi kèm khả năng mở rộng với chi phí tuyệt vời."
         },
         "servicesThird": {
             "title": "Phát triển ERP",
-            "para": "Create stunning and high-converting landing pages tailored to your marketing goals. Our designs are optimized for user engagement and lead generation."
+            "para": "Quản lý các doanh nghiêp trực quan, hiệu quả và mọi lúc mọi nơi luôn là mong muốn của mọi nhà quản trị. Giải pháp hệ thống quản trị tài nguyên doanh nghiệp (Enterprise Resources Planning - ERP) của chúng tôi được xây dựng và phát triển dành riêng cho nhu cầu của từng doanh nghiệp trong khi vẫn đảm bảo thực hiện những tiêu chí trên."
         }
     },
     "bodyWhy": {
-        "whyTitle": "Tại sao lại chọn chúng tôi ?",
-        "whyPara": ""
+        "whyTitle": "Về chúng tôi ?",
+        "whyPara": "Tại GeitTech Solution, chúng tôi nâng cao hiệu quả kinh doanh với các giải pháp phần mềm toàn diện. Từ hệ thống CRM và HRM trực quan đến tích hợp MRP và WMS mạnh mẽ, chúng tôi tùy chỉnh mọi giải pháp để đáp ứng nhu cầu cụ thể của bạn. Chuyên môn của chúng tôi đảm bảo sản phẫm của chúng tôi có thiết kế liền mạch, thân thiện với người dùng, giúp tối ưu hóa hoạt động của bạn. Trải nghiệm sự đổi mới, dịch vụ tùy chỉnh và kết quả ấn tượng khi sử dụng dịch vụ của GeitTech Solution."
     },
     "bodyEnd": {
-        "endTitle": "Để chúng tôi giúp bạn",
-        "endPara": "Đội ngũ chúng tôi làm việc bla bla",
-        "endSolutionFirst": "lấy yêu cầu khách hàng",
-        "endSolutionSec": "phân tích vấn đề, cung cấp giải pháp",
-        "endSolutionThird": "lên kế hoạch và xử lý vấn đề",
-        "endSolutionFourth": "thực hiện và xử lý"
+        "endTitleOne": "GIẢI PHÁP CỦA CHÚNG TÔI",
+        "endPara": "GeitTech Solution luôn cống hiến hết mình để cho ra những sản phẩm với tiêu chí tốt nhất và giá cả phải chăng",
+        "endSolutionFirst": "Thu Thập và Đánh Giá Nhu Cầu",
+        "endSolutionSec": "Phân Tích và Tối Ưu Hóa Giải Pháp",
+        "endSolutionThird": "Tham Vấn và Lên Kế Hoạch Xây dựng giải pháp ",
+        "endSolutionFourth": "Triển khai và Thu thập Thông tin Bảo dưỡng và phát triễn Hậu kỳ",
+        "endSubSolution": {
+            "endSubSolutionTitle": {
+                "endSubSolutionTitleOne": {
+                    "title": "E-commerce",
+                    "paraOne": "Cửa Hàng Trực tuyến",
+                    "paraSec": "Tích Hợp Thanh Toán",
+                    "paraThird": "Quản Lý Kho Hàng",
+                    "paraFourth": "Quản Lý Khách Hàng"
+                },
+                "endSubSolutionTitleSec": {
+                    "title": "Landing page",
+                    "paraOne": "Thiết Kế Tiêu Chuẩn",
+                    "paraSec": "Marketing và SEO",
+                    "paraThird": "Thu Thập Thông Tin Khách Hàng"
+                },
+                "endSubSolutionTitleThird": {
+                    "title": "hệ thống erp",
+                    "paraOne": "Quản lý Nguồn Nhân Lực (HRM)",
+                    "paraSec": "Quản lý tài chính (FM)",
+                    "paraThird": "Quản Lý Kho Bãi (IM)",
+                    "paraFourth": "Quản Lý Khách Hàng (CRM)",
+                    "paraFifth": "Quản Lý Sản Xuất (MRP)",
+                    "paraSixth": "Quản Lý Mua Hàng (SCM)",
+                    "paraSeventh": "Quản Lý Dự Án (PM)",
+                    "paraEighth": "Phân Tích Nghiệp Vụ (BI)",
+                    "paraNinth": "Quản Lý Tuân Thủ (CM)",
+                    "paraTenth": "Tích Hợp E-cormerce (ECI)"
+                }
+            }
+        }
     },
     "footer": {
         "address": "Địa chỉ"

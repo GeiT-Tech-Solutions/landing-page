@@ -16,15 +16,7 @@ const SectionWhy = () => {
             <Row>
               <h2>{t('bodyWhy.whyTitle')}</h2>
               <p>
-                At <strong>GeitTech Solution</strong>, we elevate business
-                efficiency with our comprehensive software solutions. From
-                intuitive CRM and HRM systems to robust MRP and WMS
-                integrations, we tailor every solution to meet your specific
-                needs. Our expertise ensures seamless, user-friendly designs
-                that streamline your operations. Experience innovation,
-                customized service, and impactful results as we drive your
-                business success forward with our all-in-one, customer-focused
-                solutions.
+              {t('bodyWhy.whyPara')}
               </p>
             </Row>
 
