@@ -1,71 +1,73 @@
 $dark-blue: #192847;
 
 .fix {
-   margin-right: 1vw;
+  margin-right: 1vw;
 }
 
 .containerHeader {
-   background-color: #192847;
-   color: white;
-   font-size: 0.9vw;
+  background-color: #192847;
+  color: white;
+  font-size: 0.1vw;
+  height: 40px;
 }
 
 .backgroundNav {
-   background-color: #ffffff;
+  background-color: #ffffff;
+}
 
-   .resizeIcon {
-      width: 6.3vw;
-      height: 6.3vw;
-   }
+.resizeIcon {
+  width: 3.3vw;
+  height: 3.3vw;
+}
 
-   // .fixTop {
-   //    margin-top: -40px;
-   // }
+.resizeIcon-scroll {
+  width: 4.3vw;
+  height: 4.3vw;
 }
 
 #header-navbar-nav {
-   .fix:hover {
-      background: #192847;
-      color: white;
-      border-radius: 15px;
-      box-shadow: #000000c7 0px 4px 4px 0px !important;
-      padding: 1.2vw 1.6vw;
-   }
+  .fix:hover {
+    background: #192847;
+    color: white;
+    //border-radius: 15px;
+    box-shadow: #000000c7 0px 4px 4px 0px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-   .nav-link {
-      font-size: 1.2vw;
-      transition: all 0.3s;
-   }
+  .nav-link {
+    font-size: 1.2vw;
+    transition: all 0.3s;
+  }
 }
 
 .item-center {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mr-25vw {
-   margin-right: 2.5vw;
+  margin-right: 2.5vw;
 }
 
 .sticky-header {
-   position: fixed !important;
-   top: 0; 
-   left: 0;
-   right: 0;
-   z-index: 9999;
-
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .sticky-header-scroll {
-   position: fixed !important;
-   top: 10; 
-   left: 0;
-   right: 0;
-   z-index: 9999;
+  position: fixed !important;
+  top: 10;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .backgroundNav-scroll {
   background-color: #ffffff;
-  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
 }
